@@ -1,0 +1,35 @@
+{
+  "name": "nft-ticket-minter",
+  "version": "1.0.0",
+  "description": "Mint NFT Tickets using React.js and MetaMask",
+  "main": "src/index.js",
+  "dependencies": {
+    "@metamask/detect-provider": "^1.0.0",
+    "ethers": "*",
+    "qrcode.react": "^3.1.0",
+    "query-string": "^7.1.1",
+    "react": "*",
+    "react-dom": "*",
+    "react-helmet": "^6.1.0",
+    "react-qr-code": "^2.0.8",
+    "react-router-dom": "*",
+    "react-scripts": "*"
+  },
+  "devDependencies": {
+    "@babel/runtime": "*",
+    "@parcel/transformer-webmanifest": "*",
+    "typescript": "*"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
